@@ -20,13 +20,13 @@ Put any variables as the function's paramaters, and it will print the types and 
 
 ### ```ConLogMsg()```
 ``` python
-ConLogVar(*messages)
+ConLogMsg(*messages)
 ```
 Put any elements as the function's paramaters, and it will compose them as a message and print message texts in the ```stdout```.
 
 ### ```FilLogVar()```
 ``` python
-ConLogVar(path, *variables)
+FilLogVar(path, *variables)
 ```
 Put any variables as the function's paramaters, and it will put the types and values of variables in the file that written in ```path```.
 
@@ -34,7 +34,7 @@ Put any variables as the function's paramaters, and it will put the types and va
 
 ### ```FilLogMsg()```
 ``` python
-ConLogVar(path, *messages)
+FilLogMsg(path, *messages)
 ```
 Put any elements as the function's paramaters, and it will compose them as a message and put the message text in the file that written in ```path```.
 
